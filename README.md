@@ -1,9 +1,10 @@
 # Android-arts-code
-Android开发艺术探索部分代码
-《Android开发艺术探索》博客链接：https://blog.csdn.net/weixin_38244174/article/details/94335429
+《》Android开发艺术探索》部分代码
+博客链接：https://blog.csdn.net/weixin_38244174/article/details/94335429
 
 
 涉及的内容包括：
+
 《Android开发艺术探索》之Activity的生命周期和启动模式（一）
 
 《Android开发艺术探索》之IPC机制上（二）
