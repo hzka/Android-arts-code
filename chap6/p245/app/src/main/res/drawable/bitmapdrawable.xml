@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bitmap xmlns:android="http://schemas.android.com/apk/res/android"
+    android:antialias="true"
+    android:dither="true"
+    android:filter="true"
+    android:gravity="center"
+    android:mipMap="true"
+    android:src="@color/colorPrimaryDark"
+    android:tileMode="clamp">
+<!--1.android:src 资源ID，可以是图片也可以是颜色  2.android:antialias 是否开启图片抗锯齿，开启后图片会变得平滑一点，应当开启-->
+<!--3.android:dither 是否开启抖动效果，当图片的像素配置和手机不一致，可让高质量的图片在低分辨率的屏幕上保持好的显示效果，应当开启-->
+<!--4.android:filter 是否开启过滤效果，当图片尺寸被拉伸或者压缩时，开启过滤效果会保持比较好的显示效果，所以这个也可开启-->
+<!--5.android:gravity 图片小于容器尺寸，可对图片定位，位置方向，上下左右，可以用“|”符号来实现不同选项叠加。-->
+<!--6.android:mipMap 纹理映射，比较抽象，默认为false-->
+<!--7.android:tileMode 下面细讲-->
+</bitmap>

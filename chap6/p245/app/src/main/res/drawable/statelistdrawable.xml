@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:constantSize="true"
+    android:dither="true"
+    android:variablePadding="true">
+    <!--1.android:constantSize固有大小是否不随着状态的改变而改变的，false是随着状态的改变而改变，一般默认为false-->
+    <!--2.android:dither 是否开启抖动，在低质量屏幕上依然有好的效果。-->
+    <!--3.android:variablePadding padding是否随状态的改变而改变，一般为false-->
+    <item
+        android:drawable="@drawable/bitmapdrawable"
+        android:state_pressed="true"
+        android:state_focused="true"
+        android:state_hovered="true"
+        android:state_selected="true"
+        android:state_checkable="true"
+        android:state_checked="true"
+        android:state_enabled="true"
+        android:state_activated="true"
+        android:state_window_focused="true" />
+    <!--4.item标签标示一个具体的Drawable，android:drawable表示一个具体的id。-->
+    <!--5.android:state_pressed表示按下没有松开；android:state_hovere表示View已经获取了焦点；android:state_selected表示用户选择了View-->
+    <!--6.android:state_checked用户选中View，一般用于CheackBox，android:state_enabled表示View处于可用状态-->
+</selector>

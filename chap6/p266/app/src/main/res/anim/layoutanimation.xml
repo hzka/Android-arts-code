@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layoutAnimation xmlns:android="http://schemas.android.com/apk/res/android"
+    android:delay="0.5"
+    android:animationOrder="normal"
+    android:animation="@anim/testlayoutanimation">
+    <!--android:delay 子元素开始动画的延迟，假设子元素入场动画的周期为300ms，那么0.5表示每一个子元素都需要延迟150ms才能播放入场动画-->
+    <!--android:animationOrder  表示子元素动画的顺序，有三种模式，normal，random,reverse,分别表示顺序执行、表示随机、倒序播放。-->
+    <!--android:animation 为子元素指定具体入场动画-->
+</layoutAnimation>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android">
+<item
+    android:drawable="@color/colorAccent"
+    android:duration="100" />
+<item
+    android:drawable="@color/colorPrimary"
+    android:duration="100" />
+<item
+    android:drawable="@color/what"
+    android:duration="100" />
+
+</animation-list>

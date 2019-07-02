@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android"
+    android:initialLayout="@layout/wideget"
+    android:minHeight="84dp"
+    android:minWidth="84dp"
+    android:updatePeriodMillis="86400000">
+    <!--initialLayout是小工具所使用的初始化布局，minHeight和minWidth是最小尺寸，updatePeriodMillis是自动更新周期,每隔一个周期,小工具自动更新会触发-->
+</appwidget-provider>

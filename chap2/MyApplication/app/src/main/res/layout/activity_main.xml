@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btn_caeate_db"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Create Database" />
+
+    <Button
+        android:id="@+id/btn_add_data"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Data" />
+  <Button
+        android:id="@+id/btn_update_data"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Update Data" />
+    <Button
+        android:id="@+id/btn_delete_data"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Delete Data" />
+
+    <Button
+        android:id="@+id/btn_query_data"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Query Data" />
+
+    <Button
+        android:id="@+id/btn_read_contacts"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Read contacts" />
+
+    <Button
+        android:id="@+id/btn_test_custormizeCV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Test CustormizeCV" />
+
+</LinearLayout>

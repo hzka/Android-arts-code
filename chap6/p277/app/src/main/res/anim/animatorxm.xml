@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+    android:ordering="together">
+    <objectAnimator
+        android:duration="300"
+        android:propertyName="x"
+        android:valueTo="200"
+        android:valueType="intType" />
+    <!--objectAnimator标签中的各属性:-->
+    <!--android:propertyName:表示属性动画作用对象的属性的名称-->
+    <!--android:duration：表示动画的时长-->
+    <!--android:valueFrom：表示属性的起始值-->
+    <!--android:valueTo：表示属性的结束值-->
+    <!--android:startOffset：表示动画的延迟时间，当动画开始后，需要延迟多少毫秒才会真正的播放-->
+    <!--android:repeatCount：表示动画的重复次数,默认为零，-1表示无限循环-->
+    <!--android:repeatMode：表示动画的重复模式，有一个restart（连续播放）和reverse（逆向播放）模式-->
+    <!--android:valueType:表示propertyName有两个属性有int和float两个可选项，分别表示属性的类型，和浮点型，-->
+    <!--另外，如果所制定的是颜色类型，那么就不需要指定propertyName，系统会自动对颜色类型进行处理-->
+    <objectAnimator
+        android:duration="300"
+        android:propertyName="y"
+        android:valueTo="300"
+        android:valueType="intType" />
+    <!--<animator-->
+    <!--android:duration="1000"-->
+    <!--android:repeatCount="infinite"-->
+    <!--android:repeatMode="restart"-->
+    <!--android:startOffset="15"-->
+    <!--android:valueFrom="0.5dp"-->
+    <!--android:valueTo="1.0dp"-->
+    <!--android:valueType="colorType" />-->
+</set>

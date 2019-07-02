@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+    android:fillAfter="true"
+    android:zAdjustment="normal"
+    android:shareInterpolator="true">
+    <!--set标签标示动画集合，对应AnimationSet类，可包含若干个动画，内部也可以嵌套其他动画。-->
+    <!--android:interpolator:表示动画集合所使用的插值器，插值器影响动画的速度，比如非匀速动画就需要插值器来制作动画的过程，这个属性可以不指定，默认为加速减速插值器-->
+    <!--android:shareInterpolator:表示集合中的动画是否和集合共享同一个插值器，如果集合不指定插值器，那么子动画就需要单独的去指定所需要的插值器了-->
+
+    <!--透明度动画，改变View的透明度,对应的是AlphaAnimation，fromAlpha表示透明度的起始值，比如0.1；toAlpha表示透明度结束值。-->
+    <alpha
+        android:duration="400"
+        android:fromAlpha="0.1"
+        android:toAlpha="1" />
+    <!--缩放动画，对应的ScaleAnimation，view具有放大，缩小的动画效果-->
+    <!--fromXScale、toXScale 水平方向缩放的起始值和结束值；pivotX、pivotY是缩放轴点（轴点位置适当）的x、y坐标，它会影响缩放的效果。-->
+    <scale
+        android:duration="1000"
+        android:fromXScale="0.5"
+        android:fromYScale="0.5"
+        android:pivotX="10"
+        android:pivotY="10"
+        android:toXScale="1.2"
+        android:toYScale="1.2" />
+    <!--平移动画，水平和竖直方向完成平移；对应TranslateAnimation类，-->
+    <!--fromXDelta、fromYDelta表示x、y的起始值;android:toXDelta、android:toYDelta标示x、y的结束值。-->
+    <translate
+        android:duration="600"
+        android:fromXDelta="10"
+        android:fromYDelta="10"
+        android:toXDelta="20"
+        android:toYDelta="20" />
+    <!--旋转动画，对应RotateAnimation，它可以让view旋转。-->
+    <!--fromDegrees、toDegrees 旋转开始、结束的角度；pivotX、pivotY旋转轴点的x、y-->
+    <rotate
+        android:duration="1000"
+        android:fromDegrees="0"
+        android:pivotX="10"
+        android:pivotY="10"
+        android:toDegrees="90" />
+    <!--重点：android:duration表明动画持续的时间；android:fillAfter动画结束之后是否停留在结束的位置-->
+</set>
+

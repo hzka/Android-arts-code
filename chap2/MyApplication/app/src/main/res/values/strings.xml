@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">BroadCastRecviver</string>
+    <string name="title_activity_test_content_provider">TestContentProvider</string>
+</resources>

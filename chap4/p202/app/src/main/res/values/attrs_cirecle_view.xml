@@ -1,0 +1,6 @@
+<resources>
+    <declare-styleable name="CirecleView">
+        <attr name="circle_color" format="color" />
+    </declare-styleable>
+    <!--定义了格式为color的属性circle_color-->
+</resources>

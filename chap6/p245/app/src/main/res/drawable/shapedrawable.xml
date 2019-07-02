@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="line">
+
+    <!--corners表示shape的四个角度，它只是用于矩形的shape，这里的角度是指圆角的程度，用px来表示，他有五个属性：
+      android:radius设置同样角度，优先级低，其他四个属性分别为最上角、最右角、最下角、最左角的角度 -->
+    <corners
+        android:bottomLeftRadius="10dp"
+        android:bottomRightRadius="10dp"
+        android:radius="10dp"
+        android:topLeftRadius="10dp"
+        android:topRightRadius="10dp" />
+
+    <!--gradient与solid标签是互相排斥的，因为solid表示纯色，而他表示渐变，他的属性如下，各种骚渐变-->
+    <gradient
+        android:angle="10"
+        android:centerColor="@color/colorPrimary"
+        android:centerX="10"
+        android:centerY="10"
+        android:endColor="@color/colorPrimary"
+        android:gradientRadius="10dp"
+        android:startColor="@color/colorAccent"
+        android:type="linear"
+        android:useLevel="true" />
+    <!--padding表示空白，但是他表示的不是shape的空白，而是包含他view的空白，而且有四个属性，左上右下-->
+    <padding
+        android:bottom="10dp"
+        android:left="10dp"
+        android:right="10dp"
+        android:top="10dp" />
+    <!--size：width/height分别表示的是shape的宽高，对于shape来说并没有宽高这个概念，作为view的背景他会适应view的宽高-->
+    <size
+        android:width="100dp"
+        android:height="100dp" />
+
+    <!--solid标签表示纯色填充，通过android:color来表示填充颜色-->
+    <solid android:color="@color/colorAccent" />
+
+    <!--shape的描边，分别表示宽度、颜色、虚线线段的间隔、虚线线段的宽度，注意：如果android:dashGap和android:dashwidth有任何一个为0的话，那么虚线就不能生效了-->
+    <stroke
+        android:width="100dp"
+        android:color="@color/colorPrimaryDark"
+        android:dashWidth="10dp" />
+</shape>
